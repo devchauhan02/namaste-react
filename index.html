@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namaste React</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div id="root"></div>
+
+    <!--  using js =>
+    <script>
+        const heading = document.createElement("h1")
+        heading.innerHTML  = "heLLO wORLD";
+        
+        const root = document.getElementById("root");
+        root.appendChild(heading);
+    </script> -->
+
+
+    <!-- ​React and ReactDOM are provided as separate files to promote modularity and flexibility within the React ecosystem. 
+    This separation allows React to be utilized across various platforms, not just web browsers. For instance, 
+    React can be employed in mobile applications through React Native, which doesn't require DOM-specific methods. 
+    By isolating the DOM-related functionalities into ReactDOM, React remains adaptable for different environments. -->
+    
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+
+    <!-- the crossorigin attribute ensures that if the external script encounters an error, detailed information can be captured and reported
+    , aiding in debugging and improving the robustness of your application. -->
+
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+    <script src = "./APP.js">
+        // const heading = React.createElement("h1" , {} , "Helooo from React");
+        // const root = ReactDOM.createRoot(document.getElementById("root"))
+        // root.render(heading) => instead of writing all this inside script just make a new file(APP.js) and use that
+    </script>
+</body>
+
+</html>
+
