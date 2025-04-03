@@ -1,4 +1,5 @@
 /node_modules
 .parcel-cache
 /dist
+
 # whatever u can regenerate just ignore it dont put it on git

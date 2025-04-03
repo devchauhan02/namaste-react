@@ -13,3 +13,15 @@
   - Compress
   - Error Handling
   - Different dev and production bundle
+
+# import / exports
+  - 2 ways
+    - named export
+    - default export
+  Similary 
+    import name from filePath
+    import {name} from filePath
+
+# Hooks
+  -useState
+  -useEffect
